@@ -1,0 +1,114 @@
+.products__container--cards{
+  width: 90%;
+  height: auto;
+  padding: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.products__cards{
+  width: 16rem;
+  height: 22rem;
+  background-color: #4e02a3;
+  color: #fff;
+  border-radius: 18px;
+  outline: 1px solid #a18cf8;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+  transition: 1s;
+}
+.products__cards:hover{
+  background-color: #09519a;
+  outline: 1px solid #b6e7fa;
+  box-shadow: 0 10px 15px rgb(136, 135, 135);
+}
+.products__cards:hover .fa-cart-shopping-icon {
+  background-color: #1d84ec;
+}
+.products__container--imag{
+  border-bottom: 1px solid var(--light-gray);
+  display: flex;
+  justify-content: center;
+  position: relative;
+  align-items: center;
+  width: 100%;
+  height: 15rem;
+  border-radius: 18px 18px 0 0;
+  background-color: white;
+  cursor: pointer;
+}
+
+.ImageeProduct{
+  display: block;
+  width: 90%;
+  height: 70%;
+  object-fit: contain;
+}
+
+.products__stock{
+  background: linear-gradient(#0d9fe7, #31079c);
+  position: absolute;
+  top: 1rem;
+  right: -.6rem;
+  z-index: 20;
+  padding: 2px 6px;
+  border-radius: 7px;
+  font-size: 13px;
+  font-weight: bold;
+}
+.products__info{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 32%;
+  gap: 1.5rem;
+  padding: .7rem 1rem;
+}
+.products__info--title h4{
+  font-size: 13px;
+  padding-left: 1rem;
+}
+.products__info--text{
+  width: 100%;
+  height: 4rem;
+  font-size: 13px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.products__info--price {
+  display: flex;
+  flex-direction: column;
+  gap: .4rem;
+}
+.products__info--price b{
+  padding-left: 1rem;
+}
+.fa-cart-shopping-icon {
+  position: absolute;
+  right: .5rem;
+  bottom: .5rem;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  z-index: 10;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 17px;
+  color: #fff;
+  background-color: blueviolet;
+  transition: .8s;
+}
+.fa-cart-shopping-icon:hover{
+  color: #000;
+  cursor: pointer;
+}

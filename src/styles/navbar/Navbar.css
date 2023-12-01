@@ -1,0 +1,70 @@
+.Navbar{
+  width: 100%;
+  height: 4rem;
+  background-color: hsl(257, 83%, 12%);
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  padding: 0 0 0 1rem;
+}
+.nav__icons--liksPages{
+  display: flex;
+}
+.navbar__card--imgCircle{
+  width: 3.8rem;
+  height: 3.8rem;
+  margin-top: .2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 100%;
+  text-align: center;
+  background-color: #7746e9;
+}
+.navbar__card--container-logo{
+  width: 3.4rem;
+  height: 3.4rem;
+  background-color: #0a0947;
+  border-radius: 50%;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.navbar__card--img{
+  background-image: url('../../assets/imgs/tienda.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 40px;
+  width: 4rem;
+  height: 3rem;
+  border-radius: 100%;
+}
+.navbar__card--container-logo h5{
+  font-size: 9px;
+}
+.nav__icons{
+  width: 10rem;
+  border-left: 2px solid rgb(106, 106, 107);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  cursor: pointer;
+  color: #fff;
+  transition: .4s;
+}
+.nav__icons:hover{
+  background-color: #fff;
+  color: rgb(91, 80, 246);
+  /* color: #a17afd; */
+  font-size: 2.5rem;
+  text-shadow: 1px 1px 1px #fff;
+}
+
+
+/* color: rgba(18, 4, 55, 0.749); */
